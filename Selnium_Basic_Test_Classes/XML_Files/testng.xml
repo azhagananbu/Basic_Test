@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+
+	<listeners>
+		<listener class-name="Com.TestNG.Listeners.Extents_Listeners" />
+
+	</listeners>
+
+	<test thread-count="2" name="MyTests">
+		<classes>
+			<class name="Com.TestNG.Listeners.Seleni_Test_Listeners" />
+		</classes>
+
+	</test>
+
+</suite> 

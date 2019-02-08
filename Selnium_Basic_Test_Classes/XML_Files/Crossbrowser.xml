@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="FFtestcases">
+  
+  <parameter name="Browsers" value="Firefox"/>
+  <classes>
+  
+  <class name="Cross_Browsers.loginverification"/>
+  
+  </classes>
+  </test> 
+  
+  <test name="chrometestcase">
+  
+  <parameter name="Browsers" value="chrome"/>
+  
+  <classes>
+  
+  <class name="Cross_Browsers.loginverification"/>
+  
+  </classes>
+  </test> 
+  
+  <test name="operatestcases">
+  
+  <parameter name="Browsers" value="opera"/>
+  
+  <classes>
+  
+  <class name="Cross_Browsers.loginverification"/>
+  
+  </classes>
+  </test> 
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
